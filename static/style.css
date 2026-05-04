@@ -1,0 +1,30 @@
+
+.page-bg{
+  min-height: 100vh;
+  background-image: url("/static/style.jpg"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.page-bg::before{
+  content:"";
+  position: fixed;
+  inset: 0;
+  background: rgba(255,255,255,0.72);
+  backdrop-filter: blur(2px);
+  z-index: -1;
+}
+
+
+.card-glass{
+  border-radius: 20px;
+  border: 1px solid rgba(0,0,0,0.08);
+  background: rgba(255,255,255,0.85);
+}
+
+textarea.form-control{
+  border-radius: 16px;
+}
