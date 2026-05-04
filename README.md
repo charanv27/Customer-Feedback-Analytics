@@ -30,24 +30,24 @@ Output: **Cleaned dataset ready for NLP processing**
 
 ## NLP Techniques Used
 
-### 🔹 Sentiment Analysis
+### Sentiment Analysis
 - **VADER** (fast, rule-based)
 - **BERT (DistilBERT)** (context-aware deep learning model)
 
-### 🔹 Keyword Extraction
+### Keyword Extraction
 - **TF-IDF** to identify important words and phrases
 
-### 🔹 Named Entity Recognition (NER)
+### Named Entity Recognition (NER)
 - Using **spaCy** to extract:
   - Organizations
   - Locations
   - Dates
   - Numbers
 
-### 🔹 Text Summarization
+### Text Summarization
 - Extractive summarization using sentence scoring
 
-## 🌐 Web Application
+## Web Application
 
 Built using **Flask**:
 - Upload files (TXT, PDF, DOCX, CSV)
@@ -57,7 +57,7 @@ Built using **Flask**:
   - Summary
   - Keywords
   - Named Entities
-## 📊 Power BI Dashboard
+## Power BI Dashboard
 
 The processed data is visualized using Power BI to provide business insights:
 
@@ -69,7 +69,7 @@ The processed data is visualized using Power BI to provide business insights:
 - Negative rate distribution
 - Sentiment vs rating correlation
 - 
-## 🔄 Workflow
+## Workflow
 
 1. Data Collection (Amazon datasets)  
 2. Data Validation  
@@ -78,7 +78,7 @@ The processed data is visualized using Power BI to provide business insights:
 5. Data Aggregation  
 6. Visualization using Power BI  
 
-## ▶️ How to Run the Project
+## How to Run the Project
 
 
 ## 1. Clone the repository
